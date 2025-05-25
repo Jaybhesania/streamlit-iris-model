@@ -1,0 +1,13 @@
+prefix=/Users/jaybhesania/MLProjects/deploy-model-streamlit-master/venv
+exec_prefix=/Users/jaybhesania/MLProjects/deploy-model-streamlit-master/venv
+libdir=/Users/jaybhesania/MLProjects/deploy-model-streamlit-master/venv/lib
+sharedlibdir=/Users/jaybhesania/MLProjects/deploy-model-streamlit-master/venv/lib
+includedir=/Users/jaybhesania/MLProjects/deploy-model-streamlit-master/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
